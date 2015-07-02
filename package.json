@@ -16,6 +16,7 @@
   "author": "@mapbox",
   "license": "ISC",
   "dependencies": {
+    "leaflet-control-geocoder": "^1.2.1",
     "leaflet-routing-machine": "^2.3.0"
   },
   "devDependencies": {
