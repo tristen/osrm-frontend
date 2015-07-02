@@ -4,6 +4,7 @@
   "description": "A new frontend interface for the osrm project.",
   "main": "index.js",
   "scripts": {
+    "test": "eslint index.js src",
     "start": "budo index.js --serve=bundle.js --live -d | bistre"
   },
   "keywords": [

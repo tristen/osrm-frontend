@@ -6,7 +6,7 @@ module.exports = {
       styles: [
         {color: 'black', opacity: 0.35, weight: 8},
         {color: 'white', opacity: 0.3, weight: 6}
-      ],
+      ]
     },
     dragStyles: [
       {color: 'black', opacity: 0.35, weight: 9},
@@ -17,7 +17,7 @@ module.exports = {
     alternativeClassName: 'osrm-instructions',
     stepClassName: 'osrm-step',
     geocodersClassName: 'osrm-inputs',
-    itineraryBuilder: 'osrm-steps',
+    itineraryBuilder: 'osrm-steps'
   },
 
   popup: {
@@ -35,6 +35,6 @@ module.exports = {
     josmButtonClass: 'osrm-icon mapbox-josm-icon',
     localizationButtonClass: 'osrm-icon mapbox-flag-icon',
     printButtonClass: 'icon printer',
-    toolsContainerClass: 'fill-dark dark',
+    toolsContainerClass: 'fill-dark dark'
   }
 };
