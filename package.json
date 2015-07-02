@@ -1,0 +1,27 @@
+{
+  "name": "new-osrm",
+  "version": "1.0.0",
+  "description": "A new frontend interface for the osrm project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js --serve=bundle.js --live -d | bistre"
+  },
+  "keywords": [
+    "directions",
+    "osrm",
+    "leaflet",
+    "driving",
+    "routing"
+  ],
+  "author": "@mapbox",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet-routing-machine": "^2.3.0"
+  },
+  "devDependencies": {
+    "bistre": "^1.0.1",
+    "browserify": "^10.2.4",
+    "budo": "^4.1.0",
+    "uglify-js": "^2.4.23"
+  }
+}
