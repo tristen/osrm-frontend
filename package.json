@@ -1,5 +1,5 @@
 {
-  "name": "new-osrm",
+  "name": "osrm-frontend",
   "version": "1.0.0",
   "description": "A new frontend interface for the osrm project.",
   "main": "index.js",
@@ -15,6 +15,10 @@
   ],
   "author": "@mapbox",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tristen/osrm-frontend.git"
+  },
   "dependencies": {
     "leaflet-control-geocoder": "^1.2.1",
     "leaflet-routing-machine": "^2.3.0"
